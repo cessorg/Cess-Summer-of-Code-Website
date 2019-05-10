@@ -48,6 +48,10 @@
   }
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .nav-item-slot-m {
   display: none;
   margin-bottom: 10px;
@@ -55,7 +59,6 @@
 
 body {
   background-color: #faf9ff;
-  scroll-behavior: smooth;
 }
 
 .text-center {
