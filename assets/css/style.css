@@ -55,6 +55,7 @@
 
 body {
   background-color: #faf9ff;
+  scroll-behavior: smooth;
 }
 
 .text-center {
