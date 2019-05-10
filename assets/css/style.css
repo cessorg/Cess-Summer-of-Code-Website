@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo-text {
+    font-size: 1.3rem !important;
+  }
+  .nav-item {
+    line-height: 50px;
+  }
+  .toggler {
+    display: block !important;
+  }
+  .navb {
+    background-color: #faf9ff;
+    box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.16),
+      0 0.2rem 1rem 0 rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.16),
+      0 0.2rem 1rem 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.16),
+      0 0.2rem 1rem 0 rgba(0, 0, 0, 0.12);
+  }
+  .nav-item-slot-m {
+    display: block;
+  }
+  .nav-item-slot-d {
+    display: none;
+  }
+  .game-plan-main-row {
+    padding: 30px 30px 30px 30px !important;
+  }
+  .game-plan-row-2 {
+    padding: 0px 10px 30px 10px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-item-slot-m {
+    display: none !important;
+  }
+}
+
+.nav-item-slot-m {
+  display: none;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: #faf9ff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.toggler {
+  display: none;
+}
+
+.toggler-btn {
+  cursor: pointer;
+}
+
+.navb {
+  position: fixed;
+  width: 100%;
+  transition: 0.3s;
+  z-index: 200;
+}
+
+.logo-text {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  transition: 0.3s;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #590100;
+  transition: 0.3s;
+}
+
+.nav-item:hover {
+  color: #ec4d51;
+}
+
+.navb-scrolled {
+  background-color: #faf9ff;
+  box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.16),
+    0 0.2rem 1rem 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.16),
+    0 0.2rem 1rem 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.16),
+    0 0.2rem 1rem 0 rgba(0, 0, 0, 0.12);
+}
+
+.scrolled {
+  padding: 1rem;
+}
+
+.main-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/back.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.main-logo {
+  padding: 40px;
+}
+
+.main-text {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+
+.btn {
+  padding: 10px 30px;
+  border-style: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-red {
+  background-color: #ec4d51;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-red:hover {
+  background-color: #ea3c65;
+}
+
+.btn-red:active {
+  background-color: #af2d4c;
+}
+
+.about {
+  font-size: 2.5rem;
+  font-family: "Righteous", cursive;
+  line-height: 6rem;
+}
+
+.about-content {
+  font-size: 1.5rem;
+}
+
+.game-plan {
+  background-image: url("../images/game-back.jpg");
+  background-size: cover;
+}
+
+.the-game-plan-text {
+  font-size: 2.5rem;
+  font-family: "Righteous", cursive;
+  color: white;
+}
+
+.game-plan-main-row {
+  padding: 50px 60px 60px 60px;
+}
+
+.game-plan-row-2 {
+  padding: 0px 30px 30px 30px;
+}
+
+.box {
+  background-color: rgba(63, 15, 102, 0.5);
+  border: 2px solid #77399e;
+  width: 100%;
+  min-height: 12rem;
+  margin-bottom: 15px;
+}
+
+.box-title {
+  color: white;
+  font-size: 1.1rem;
+  padding: 20px;
+  border-bottom: 2px solid #77399e;
+}
+
+.box-body {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+}
+
+.footer {
+  background-color: #12054d;
+  text-align: center;
+}
+
+.foot-text {
+  color: white;
+  padding: 20px;
+}
