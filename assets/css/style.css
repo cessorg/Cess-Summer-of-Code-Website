@@ -266,3 +266,19 @@ body {
   -moz-box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.3),
     0 0.2rem 1rem 0 rgba(0, 0, 0, 0.12);
 }
+
+.timeline-row{
+  background-color: rgba(31, 8, 84, 0.8);
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.border-right{
+  border-right: 2px solid #ea3c65;
+}
+
+.active{
+  background-color: rgba(133, 87, 239, 0.5);
+  transition: 1s;
+}

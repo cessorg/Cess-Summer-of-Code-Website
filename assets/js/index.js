@@ -21,3 +21,18 @@ $('.toggler-btn').on('click',()=>{
         $('.toggler-btn').addClass('fa-times');
     }
 })
+
+// timeline event's highlighter
+var j = 0;
+var boxes = document.querySelectorAll(".timeline-row");
+var l = boxes.length;
+setInterval(function timelineHighlight(){
+    for (i = 0; i < l; i++){
+        boxes[i].classList.remove("active");
+    }
+    boxes[j].classList.add("active");
+    j++;
+    if (j > l-1){
+        j = 0;
+    }
+}, 5000);
