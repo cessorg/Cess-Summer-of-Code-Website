@@ -14,8 +14,10 @@ $('.toggler-btn').on('click',()=>{
     if(toggled){
         $('.nav-item-slot-m').hide();
         toggled=false;
+        $('.toggler-btn').removeClass('fa-times');
     }else{
         $('.nav-item-slot-m').show();
         toggled=true;
+        $('.toggler-btn').addClass('fa-times');
     }
 })

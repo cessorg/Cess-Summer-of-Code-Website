@@ -40,6 +40,10 @@
   .game-plan-row-2 {
     padding: 0px 10px 30px 10px !important;
   }
+
+  .reg-card {
+    margin-top: 40px !important;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -48,7 +52,7 @@
   }
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -155,6 +159,18 @@ body {
   background-color: #af2d4c;
 }
 
+.btn-white {
+  transition: 0.3s;
+}
+
+.btn-white:hover {
+  background-color: #dbdbdb;
+}
+
+.btn-white:active {
+  background-color: #c1c1c1;
+}
+
 .about {
   font-size: 2.5rem;
   font-family: "Righteous", cursive;
@@ -212,4 +228,41 @@ body {
 .foot-text {
   color: white;
   padding: 20px;
+}
+
+.register-title {
+  font-family: "Righteous", cursive;
+  font-size: 2.5rem;
+}
+
+.reg-card {
+  background-image: url("../images/purple.png");
+  background-size: cover;
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.reg-input {
+  width: 80%;
+  padding: 10px 0px 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.16),
+    0 0.2rem 1rem 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.16),
+    0 0.2rem 1rem 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.16),
+    0 0.2rem 1rem 0 rgba(0, 0, 0, 0.12);
+  transition: 0.3s;
+}
+
+.reg-input:focus {
+  box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.3),
+    0 0.2rem 1rem 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.3),
+    0 0.2rem 1rem 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.3),
+    0 0.2rem 1rem 0 rgba(0, 0, 0, 0.12);
 }
