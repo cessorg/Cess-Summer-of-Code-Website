@@ -1,3 +1,4 @@
+// Navbar Size Decrease on Scroll
 $(window).on('scroll',()=>{
     if($(window).scrollTop()){
         $('.logo-text').addClass('scrolled');
@@ -8,6 +9,7 @@ $(window).on('scroll',()=>{
     }
 })
 
+// Navbar Settings
 let toggled=false;
 
 $('.toggler-btn').on('click',()=>{
@@ -21,6 +23,12 @@ $('.toggler-btn').on('click',()=>{
         $('.toggler-btn').addClass('fa-times');
     }
 })
+
+$('.nav-item-m').on('click',()=>{
+    $('.nav-item-slot-m').hide();
+    $('.toggler-btn').removeClass('fa-times');
+    toggled=false;
+});
 
 // timeline event's highlighter
 var j = 0;
