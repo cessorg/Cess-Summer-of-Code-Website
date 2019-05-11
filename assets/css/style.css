@@ -249,6 +249,7 @@ body {
   margin: 10px;
   border: none;
   border-radius: 5px;
+  border-style: none;
   box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.16),
     0 0.2rem 1rem 0 rgba(0, 0, 0, 0.12);
   -webkit-box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.16),
