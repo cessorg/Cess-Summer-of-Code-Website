@@ -183,16 +183,17 @@
         </div>
         <div class="col-md-7">
           <div class="reg-card">
-            <form method="POST" name="register" netlify>
-                <input class="reg-input" type="text" placeholder="Name" />
+            <form name="register-form" method="POST" data-netlify="true">
+                <input class="reg-input" type="text" name="name" placeholder="Name" />
                 <br />
                 <input
                   class="reg-input"
                   type="text"
+                  name="institute"
                   placeholder="Educational Institute Name"
                 />
                 <br />
-                <input class="reg-input" type="email" placeholder="Email Address" />
+                <input class="reg-input" type="email" name="email" placeholder="Email Address" />
                 <br />
                 <button
                   type="submit"
