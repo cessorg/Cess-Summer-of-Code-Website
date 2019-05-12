@@ -183,23 +183,25 @@
         </div>
         <div class="col-md-7">
           <div class="reg-card">
-            <input class="reg-input" type="text" placeholder="Name" />
-            <br />
-            <input
-              class="reg-input"
-              type="text"
-              placeholder="Educational Institute Name"
-            />
-            <br />
-            <input class="reg-input" type="text" placeholder="Email Address" />
-            <br />
-            <button
-              type="submit"
-              class="btn btn-white"
-              style="margin-top:10px;"
-            >
-              Register
-            </button>
+            <form method="POST" name="register" netlify>
+                <input class="reg-input" type="text" placeholder="Name" />
+                <br />
+                <input
+                  class="reg-input"
+                  type="text"
+                  placeholder="Educational Institute Name"
+                />
+                <br />
+                <input class="reg-input" type="email" placeholder="Email Address" />
+                <br />
+                <button
+                  type="submit"
+                  class="btn btn-white"
+                  style="margin-top:10px;"
+                >
+                  Register
+                </button>
+            </form>
           </div>
         </div>
       </div>
