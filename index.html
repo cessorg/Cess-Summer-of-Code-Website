@@ -183,7 +183,7 @@
         </div>
         <div class="col-md-7">
           <div class="reg-card">
-            <form action="https://docs.google.com/forms/d/e/1FAIpQLSeUxBQUqUn1-oZD5y3Vg9nL1jVpOjyAMT3seYRjxUYFUrif-g/formResponse" method="POST">
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSeUxBQUqUn1-oZD5y3Vg9nL1jVpOjyAMT3seYRjxUYFUrif-g/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
                 <input class="reg-input" type="text" name="entry.1895881451" placeholder="Name" required/>
                 <br />
                 <input
@@ -245,6 +245,9 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+onload="if(submitted) {window.location='thankyou.html';}"></iframe>
     <script src="assets/js/index.js"></script>
   </body>
 </html>
