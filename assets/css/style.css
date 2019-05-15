@@ -296,5 +296,7 @@ body {
 }
 
 .person-review{
+  text-align: justify;
+  text-justify: inter-word;
   padding:6px;
 }
