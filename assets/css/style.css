@@ -284,3 +284,17 @@ body {
   background-color: rgba(133, 87, 239, 0.5);
   transition: 1s;
 }
+
+.person-image{
+  border-radius: 20px;
+}
+
+.person-name{
+  padding: 8px;
+  font-size: 1.1rem;
+  border-bottom: 2px solid red;
+}
+
+.person-review{
+  padding:6px;
+}
