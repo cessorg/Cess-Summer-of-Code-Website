@@ -59,18 +59,14 @@ select.addEventListener('change',(event)=>{
     if(numMembers==2){
         $('.i3').hide();
         $('.i4').hide();
-        $('.i5').hide();
     }else if(numMembers==3){
         $('.i3').show();
         $('.i4').hide();
-        $('.i5').hide();
     }else if(numMembers==4){
         $('.i3').show();
         $('.i4').show();
-        $('.i5').hide();
     }else {
         $('.i3').show();
         $('.i4').show();
-        $('.i5').show();
     }
 })
